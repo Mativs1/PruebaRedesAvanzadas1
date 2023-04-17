@@ -1,3 +1,10 @@
+# Modulos instalados (en este caso funciones de sistema operativo)
+import os
+
+# Variables vacias
+x = 0
+y = 0
+selector = int()
 selectorReset = int()
 
 
