@@ -1,16 +1,24 @@
-import os
-x = 0
-y = 0
-selector = int()
 selectorReset = int()
+
+
+# Lista para la creacion de campus
 campus = ["Zona-Core", "Campus-Uno", "Campus-Matriz", "Sector-Outsourcing"]
+
+
+# Bucle While para re-usar la aplicacion
 while True:
     selectorReset = int()
     os.system("clear")
+
+    
+    # Visualizador de menu
     print("Bienvenido! \n¿Qué desea hacer? ")
     print("1. Visualizar dispositivos. \n2. Visualizar campus. \n3. Agregar dispositivos. \n4. Agregar campus. \n5. Salir.")
     selector = int()
     selector = input("Elija una opcion: ")
+
+    
+    # Visualizar los dispositivos
     if int(selector) == 1:
         os.system("clear")
         y = 1
@@ -31,7 +39,9 @@ while True:
                 print(item)
             file.close()
         selectorReset = input("Presione enter para volver al menu")
-        
+    
+
+    # Visualizador de campus
     elif int(selector) == 2:
         os.system("clear")
         y = 1
@@ -41,6 +51,9 @@ while True:
                 print(str(y)+".", item)
                 y=y+1
         selectorReset = input("Presione enter para volver al menu")
+    
+
+    # Creador de dispositivos (para cada campus)
     elif int(selector) == 3:
         os.system("clear")
         y = 1
@@ -133,6 +146,9 @@ while True:
             file.write("\n----------------------------------\n")
             file.close()
         selectorReset = input("Presione enter para volver al menu")
+    
+
+    # Creador de campus a base de una lista
     elif int(selector) == 4:
         os.system("clear")
         print("\n \nElija el nombre de el campus que desea agregar: \n")
