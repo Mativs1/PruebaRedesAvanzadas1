@@ -1,0 +1,13 @@
+----------------------------------
+Switch: Backbone matriz 
+Jerarquia: Distribucion
+Servicio: Trunking, VLAN 
+----------------------------------
+Switch: Ventas-Procesos 
+Jerarquia: Acceso
+Servicio: Trunking, Datos, VLAN
+----------------------------------
+Switch: Ventas-Finanzas 
+Jerarquia: Acceso
+Servicio: Trunking, Datos, VLAN
+----------------------------------

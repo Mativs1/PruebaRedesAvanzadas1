@@ -1,0 +1,13 @@
+----------------------------------
+Switch: INTERNET-DATA-CENTER-EXTERNO
+Jerarquia: Acceso
+Servicio: Datos
+----------------------------------
+Router: ORIENTE
+Jerarquia: Distribucion
+Servicio: Enrutamiento
+----------------------------------
+Router: MATRIZ
+Jerarquia: Distribucion
+Servicio: Enrutamiento
+----------------------------------

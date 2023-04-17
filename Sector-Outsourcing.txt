@@ -1,0 +1,9 @@
+----------------------------------
+Switch: RRPP 
+Jerarquia: Acceso
+Servicio: Datos, VLAN
+----------------------------------
+Switch: RRHH 
+Jerarquia: Acceso
+Servicio: Datos, VLAN
+----------------------------------
